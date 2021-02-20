@@ -1,0 +1,51 @@
+@import "nullstyle.scss";
+@import "header.scss";
+@import "btn.scss";
+@import "menu.scss";
+@import "content.scss";
+@import "footer.scss";
+
+.ibg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  img {
+    visibility: hidden;
+  }
+}
+
+.wrapper {
+  background: #fff;
+  width: 100%;
+  max-width: 1400px;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #767676;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px;
+  padding: 0 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 767px) {
+}
