@@ -431,7 +431,6 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
   background: #fff;
   width: 100%;
-  max-width: 1400px;
   min-height: 100%;
   overflow: hidden;
   display: -webkit-box;
@@ -446,6 +445,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 22px;
   color: #767676;
   font-weight: 400;
+  margin: 0 auto;
+}
+
+.slider {
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
